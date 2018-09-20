@@ -1,0 +1,112 @@
+! version = 2.0
+
+var name = Somaiya Bot
+var age = 1
+
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
+//Greetings
++ how are you
+- We're great, how are you?
+- We're good, you?
+- Good :) you?
+- Great! You?
+- We're fine, how about you?
+
++ hello
+- Hello :)
+- Hi :)
+- Hey :)
+
++ hey
+@ hello
+
++ hi
+@ hello
+
++ what is up
+- Nothing much, how about you?
+- We're doing great! How can we help you?
+
++ [*] my name is *
+- Hi <set uname=<star1>><get uname>, How can we help you?
+- <set uname=<star1>>It's nice to meet you, <get uname>. Is there anything we can help you with?
+
++ [*] i am *
+@ hi my name is *
+
++ what is my name
+* <get uname> == undefined => You never told us your name.
+- Your name is <get uname>, We have a good memory :)
+
+//about
++ how old is somaiya
+- We were founded by Padma Bhushan Karamshi Jethabhai Somaiya in 1959.\n You can read more about our history <a href="https://www.somaiya.edu/en/history">here</a>
+
++ * (founder|founded)
+- Our founder is Padma Bhushan Karamshi Jethabhai Somaiya. You can read more about him <a href="https://www.somaiya.edu/en/history">here</a>
+
++ who founded somaiya
+@ * founder
+
+//admissions
++ [*] admissions [*]
+- We are currently accepting admissions. Kindly visit <a href="https://simsr.somaiya.edu/simsr/Admission/PhD">here</a> for more information.
+
++ [*] institutes [*]
+- We have a total of 20 institutes under the Somaiya umbrella  
+
++ [*] (which|tell me more) [*]
+- 1.SIMSR 2.KJSCOE 3.Polytechnic 4.KJSIEIT. Which one would you like to know about?
+
++ simsr
+- To know more about KJSIMSR please visit <a href="https://simsr.somaiya.edu/simsr?/simsr">here</a>
+
+
+//mca
++ what is the fees for mca
+- For MCA fee structure, Please get in touch with us at: \n
+^ K . J.Somaiya Institute of Management Studies and Research \n
+^ Vidyanagar, Vidyavihar(E). \n
+^ Mumbai - 400077. \n
+^ Ph.no.:+91-22- 6728 3000 / 6728 3050 \n
+^ Email:info.simsr@somaiya.edu \n
+^ To know more about out MCA programme please click <a href="https://simsr.somaiya.edu/simsr/Programmes/FT_MASTER">here</a>
+
++ fees for mca
+@ what is the fees for mca
+
++ *
+- Sorry, can you please rephrase your query?
+- Sorry, We didn't get you?
+- I'm not sure how to reply to that.
+
++ [*] mca syllabus [*]
+- <a href="https://simsr.somaiya.edu/media/pdf/MCA%20Syllabus%20Autonomous_draftfor%20website.pdf">Download</a> our MCA syllabus. 
+^ For more information about our MCA programme please click <a href="https://simsr.somaiya.edu/simsr/Programmes/FT_MASTER">here</a>
+
++ [*] mca placements [*]
+- We have a 99% placement record for the academic year 2017-2018. Check our statistics <a href="https://simsr.somaiya.edu/simsr/Placements/Final_Placements">here</a>
+
++ [*] mca [*]
+- To know about our MCA programme, please click <a href="https://simsr.somaiya.edu/simsr/Programmes/FT_MASTER">here</a>\nContact: \n Ph.no.: +91-22- 6728 3000 / 6728 3050 \n Email: info.simsr@somaiya.edu \n
+
++ *
+- Sorry, can you please rephrase your query?
+- Sorry, We didn't get you?
+- We're not sure how to reply to that.
