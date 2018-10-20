@@ -9,3 +9,10 @@ A simple chatbot using rivescript
 4. Provide contact information for further assistance.
 5. Single point of contact for searching
 6. Provide direct answers and sometimes redirect to external websites / resources to support the response
+
+### Technology Stack
+
+HTML,CSS
+Javascript
+jQuery
+Rivescript
